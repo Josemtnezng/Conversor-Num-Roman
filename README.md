@@ -31,7 +31,7 @@ Para ejecutar este proyecto en tu entorno local, necesitarás tener Node.js inst
 
 1.  **Clona el repositorio** en tu máquina local:
     ```bash
-    git clone [https://github.com/tu-usuario/conversor-romano.git](https://github.com/tu-usuario/conversor-romano.git)
+    git clone [https://github.com/Josemtnezng/conversor-num-roman.git](https://github.com/tu-usuario/conversor-romano.git)
     cd conversor-romano
     ```
 
