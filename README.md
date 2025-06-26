@@ -2,7 +2,7 @@
 
 ¡Un elegante y sencillo conversor de números arábigos a su equivalente en numeración romana! Este proyecto ha sido desarrollado utilizando tecnologías web fundamentales y se ejecuta en un entorno de desarrollo moderno gestionado con NPM.
 
-![Vista Previa del Conversor](https://i.imgur.com/Gj3H8aU.png)
+
 
 ## ✨ Características Principales
 
