@@ -1,0 +1,118 @@
+body {
+    font-family: 'Cinzel', serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://images.pexels.com/photos/165173/pexels-photo-165173.jpeg');
+    
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.converter-container {
+    padding: 2.5em;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 0.2em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    color: #E0E0E0;
+    margin-top: 0;
+    margin-bottom: 2.5em;
+    letter-spacing: 1px;
+}
+
+input[type="number"] {
+    width: 95%;
+    padding: 14px;
+    font-size: 1.2em;
+    font-family: 'Helvetica Neue', sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: none;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 1.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #7B1113;
+    border: 1px solid #A42A2A;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    letter-spacing: 1px;
+    font-family: 'Cinzel', serif;
+}
+
+button:hover {
+    background-color: #903B3D;
+    border-color: #B94A4A;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+#resultado {
+    margin-top: 1.5em;
+    font-size: 2.8em;
+    font-weight: bold;
+    min-height: 1.5em;
+    word-wrap: break-word;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 500px) {
+    .converter-container {
+        padding: 2em 1.5em;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
+    h1 { font-size: 2em; }
+    #resultado { font-size: 2.2em; }
+}

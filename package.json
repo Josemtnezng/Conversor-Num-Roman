@@ -1,0 +1,16 @@
+{
+  "name": "conversor-num-roman",
+  "version": "1.0.0",
+  "description": "Conversor de numeros a romanos.",
+  "main": "app.js",
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "José Martínez",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
